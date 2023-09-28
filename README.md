@@ -1,0 +1,2 @@
+# smartnews
+testing
