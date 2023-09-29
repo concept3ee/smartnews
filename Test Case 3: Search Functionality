@@ -1,0 +1,26 @@
+Test Case 3: Search Functionality
+
+Test Case Title: Search Functionality
+
+Test Case ID: FT-03
+
+Description: Verify that users can search for specific news articles or topics.
+
+Preconditions:
+
+The user is logged in and on the application's home screen.
+
+Test Steps:
+
+Locate the search bar within the application.
+Enter a search query (e.g., a keyword or topic).
+Click the "Search" or "Submit" button.
+Review the search results.
+Click on a search result to view the corresponding article.
+Verify that the article opens and displays the content.
+
+Expected Results:
+
+Users should be able to search for articles based on their queries.
+The search results should be relevant to the query.
+Clicking on a search result should open the corresponding article.
