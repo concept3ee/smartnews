@@ -18,9 +18,9 @@ Click on a news article.
 Verify that the article opens and displays the content.
 Check for the presence of images, text formatting, and any embedded media (if applicable).
 Scroll through the article to ensure smooth navigation.
-Use any provided interaction features (e.g., comments, likes) and verify their functionality.
+Use any provided interaction features 
 Expected Results:
 
 Users should be able to select and view news articles from different categories.
-Articles should display correctly, including any multimedia elements.
+Articles should be displayed correctly, including any multimedia elements.
 Navigation within articles and interaction features should work as expected.
