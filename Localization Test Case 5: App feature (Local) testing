@@ -1,0 +1,17 @@
+
+Test Case Title: App feature (Local) testing
+
+Test Case ID: LOC-05
+
+Description: verify that you can find local stories in your area
+
+The application is installed and launched.
+The user has selected the local screen.
+
+Test Steps:
+Click on the local screen.
+Enter your city or zipcode
+verify that you can see local stories in your area.
+
+Expected result
+All news content and stories should be specific to your area.
