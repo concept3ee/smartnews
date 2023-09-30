@@ -14,19 +14,20 @@ Description: Verify that users can successfully register for an account and log 
 Preconditions:
 
 The application is installed and launched.
-The user is on the registration/login screen.
+The user is on the registration/login screen on the profile page.
 
 Test Steps:
+log in options
+Apple account, Facebook account, google account, email address
 
-Click on the "Register" button.
-Enter valid user details such as full name, email, phone number, and a password.
-Click the "Submit" or "Register" button.
-Verify that the user is redirected to the login page.
-Enter the registered email and password.
-Click the "Login" button.
-Verify that the user is successfully logged in and redirected to the application's home screen.
+Click on the "continue with email".
+Enter a valid user email address that is available to receive a confirmation code.
+click "send email"
+Enter the confirmation code that was sent 
+Verify that the user is successfully logged in a
 Verify that the user's name or profile picture (if applicable) is displayed on the home screen.
+
 Expected Results:
 
 The user should be able to complete the registration and login processes without any errors.
-After successful login, the user should land on the home screen with their name or profile picture visible.
+After successful login, the user should land on the profile screen with their name or profile picture visible.
