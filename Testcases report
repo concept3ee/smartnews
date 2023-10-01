@@ -48,6 +48,8 @@ The app's information page should display accurate details and screenshots.
 The app should be compatible with the device, and the installation should proceed without errors.
 After installation, the "Open" button should appear, indicating that the app can be launched.
 The app should open without crashing or displaying any errors.
+
+
 Postconditions:
 
 The app is successfully installed and launched on the Android device.
@@ -94,6 +96,40 @@ Postconditions:
 
 The app is successfully installed and launched on the IOS device.
 
+
+
+Test Case Title: App Launch and Onboarding
+
+Test Case ID: ONB-001
+
+Description: Verify that the app launches successfully and provides a smooth onboarding experience for new users.
+
+Preconditions:
+
+The app is installed on the device.
+
+Test Steps:
+
+Open the app by tapping on its icon.
+
+Observe the app's launch time and check for any delays or crashes.
+
+On the first app launch (for new users), the app should initiate the onboarding process. For returning users, skip to step 6.
+
+During onboarding, verify the following:
+
+User registration or login options are available.
+App permissions requests (e.g., location, notifications) are presented with clear explanations.
+User data collection and privacy policy agreement (if applicable).
+Complete the onboarding process, including user registration or login, accepting permissions, and agreeing to the privacy policy (if applicable).
+
+After onboarding (for returning users), the app should display its main interface or home screen.
+
+Expected Results:
+
+The app should launch without any noticeable delays or crashes.
+Onboarding for new users should be smooth and intuitive, with clear explanations for permissions and data collection.
+Returning users should be directly taken to the app's main interface or home screen.
 
 
 Test Case 1: User Registration/Login
