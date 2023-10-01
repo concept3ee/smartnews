@@ -7,6 +7,7 @@ Description: Verify that the app launches successfully and provides a smooth onb
 Preconditions:
 
 The app is installed on the device.
+
 Test Steps:
 
 Open the app by tapping on its icon.
