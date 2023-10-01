@@ -7,3 +7,123 @@ Test version IOS: 23.9.20 (cf160a917b)
 
 Tester: Cletus Agbo
 
+
+Test cases and results
+
+Test Case Title: App Installation
+
+Test Case ID: INSTALL-001
+
+Description: Verify that the application can be successfully installed on an Android device.
+
+Preconditions:
+
+An Android device with the minimum required specifications.
+The device is connected to the internet.
+
+Test Steps:
+
+Unlock the Android device and ensure it is connected to the internet.
+
+Open the Google Play Store app from the device's app menu.
+
+In the Play Store search bar, enter Smartnews.
+
+From the search results, click on the correct application listing for "smartnew App."
+
+On the application's page, review the app's information, including the app name, developer, description, and screenshots.
+
+Check for the app's compatibility with your device. Verify that the device meets the minimum system requirements, such as Android version, screen resolution, and available storage space.
+
+Click the "Install" button to initiate the installation process.
+
+Observe the installation progress. Verify that the app is downloading and installing without errors.
+
+Once the installation is complete, the "Install" button will change to "Open." Click the "Open" button to launch the app.
+
+Expected Results:
+
+The Google Play Store should successfully find the app based on the search query.
+The app's information page should display accurate details and screenshots.
+The app should be compatible with the device, and the installation should proceed without errors.
+After installation, the "Open" button should appear, indicating that the app can be launched.
+The app should open without crashing or displaying any errors.
+Postconditions:
+
+The app is successfully installed and launched on the Android device.
+
+
+Test Case ID: INSTALL-02
+
+Description: Verify that the application can be successfully installed on an IOS device.
+
+Preconditions:
+
+An Android device with the minimum required specifications.
+The device is connected to the internet.
+
+Test Steps:
+
+Unlock the Apple device and ensure it is connected to the internet.
+
+Open the IOS App Store from the device's app menu.
+
+In the App Store search bar, enter Smartnews.
+
+From the search results, click on the correct application listing for "smartnew App."
+
+On the application's page, review the app's information, including the app name, developer, description, and screenshots.
+
+Check for the app's compatibility with your device. Verify that the device meets the minimum system requirements, such as IOS version, screen resolution, and available storage space.
+
+Click the "Install" button to initiate the installation process.
+
+Observe the installation progress. Verify that the app is downloading and installing without errors.
+
+Once the installation is complete, the "Install" button will change to "Open." Click the "Open" button to launch the app.
+
+Expected Results:
+
+The IOS App Store should successfully find the app based on the search query.
+The app's information page should display accurate details and screenshots.
+The app should be compatible with the device, and the installation should proceed without errors.
+After installation, the "Open" button should appear, indicating that the app can be launched.
+The app should open without crashing or displaying any errors.
+
+Postconditions:
+
+The app is successfully installed and launched on the IOS device.
+
+
+
+Test Case 1: User Registration/Login
+
+Test Case Title: User Registration and Login
+
+Test Case ID: FT-01
+
+Description: Verify that users can successfully register for an account and log in to the application.
+
+Preconditions:
+
+The application is installed and launched.
+The user is on the registration/login screen on the profile page.
+
+Test Steps:
+log in options
+Apple account, Facebook account, google account, email address
+
+Click on the "continue with email".
+Enter a valid user email address that is available to receive a confirmation code.
+click "send email"
+Enter the confirmation code that was sent 
+Verify that the user is successfully logged in 
+Verify that the user's name or profile picture (if applicable) is displayed on the home screen.
+
+Expected Results:
+
+The user should be able to complete the registration and login processes without any errors.
+After successful login, the user should land on the profile screen with their name or profile picture visible.
+
+
+
