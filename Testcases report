@@ -162,4 +162,84 @@ The user should be able to complete the registration and login processes without
 After successful login, the user should land on the profile screen with their name or profile picture visible.
 
 
+Test Case 2: News Article Retrieval
+
+Test Case Title: News Article Retrieval
+
+
+Test Case ID: FT-02
+
+Description: Verify that users can retrieve and view news articles from various sources.
+
+Preconditions:
+
+The user is logged in and on the application's home screen.
+Test Steps:
+
+Navigate to the "News" or "Articles" section of the application.
+Select a news category (e.g., "Technology," "Sports," "Politics").
+Click on a news article.
+Verify that the article opens and displays the content.
+Check for the presence of images, text formatting, and any embedded media (if applicable).
+Scroll through the article to ensure smooth navigation.
+Use any provided interaction features 
+Expected Results:
+
+Users should be able to select and view news articles from different categories.
+Articles should be displayed correctly, including any multimedia elements.
+Navigation within articles and interaction features should work as expected.
+
+Test Case 3: Search Functionality
+
+Test Case Title: Search Functionality
+
+Test Case ID: FT-03
+
+Description: Verify that users can search for specific news articles or topics.
+
+Preconditions:
+
+The user is logged in and on the application's home screen.
+
+Test Steps:
+
+Locate the search bar within the application.
+Enter a search query (e.g., a keyword or topic).
+Click the "Search" or "Submit" button.
+Review the search results.
+Click on a search result to view the corresponding article.
+Verify that the article opens and displays the content.
+
+Expected Results:
+
+Users should be able to search for articles based on their queries.
+The search results should be relevant to the query.
+Clicking on a search result should open the corresponding article.
+
+Localization Testing 
+
+Test Case 1: Language Selection
+
+Test Case Title: Language Selection
+
+Test Case ID: LOC-01
+
+Description: Verify that the application allows users to select their preferred language and that the app's content and user interface are displayed in the selected language.
+
+Preconditions:
+
+The application is installed and launched.
+The user is on the settings screen (if applicable).
+Test Steps:
+
+Navigate to the application's settings 
+Locate the edition selection option.
+Select a different language from the available options (e.g., United States or Japanese).
+Confirm the language change by saving the selection.
+Verify that the app's content, including news articles and user interface elements, is displayed in the selected language.
+
+Expected Results:
+
+After selecting a language, all app content should be displayed in the chosen language.
+
 
