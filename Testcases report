@@ -243,3 +243,90 @@ Expected Results:
 After selecting a language, all app content should be displayed in the chosen language.
 
 
+
+Test Case Title: Date and Time Format
+
+Test Case ID: LOC-02
+
+Description: Verify that date and time formats are correctly localized based on the selected region and language.
+
+Preconditions:
+
+The application is installed and launched.
+The user has selected a language edition.
+Test Steps:
+
+Navigate to the application's settings or preferences.
+Verify that there's an option to set the language edition.
+Change the region or country setting to a different location (from the United States to Japan).
+Access news articles and check for the correct date and time formats (e.g., MM/DD/YYYY to DD/MM/YYYY).
+Verify that date and time in the user interface (e.g., timestamps) are also updated accordingly.
+Expected Results:
+
+Changing the region should update date and time formats in both news articles and the user interface.
+
+
+Test Case Title: Currency Display
+
+Test Case ID: LOC-03
+
+Description: Verify that the application displays currency symbols and formats correctly for the selected region and language.
+
+Preconditions:
+
+The application is installed and launched.
+The user has selected a language edition.
+
+Test Steps:
+
+Navigate to the application's settings screen.
+Verify that there's an option to set the region or country.
+Change the region or country setting to a different location (e.g., from the United States to Japan).
+Access financial news articles or sections that involve currency information.
+Verify that currency symbols and formatting are displayed correctly.
+
+Expected Results:
+
+Changing the edition should update currency symbols and formatting in financial news articles.
+
+
+Test Case Title: Content Localization
+
+Test Case ID: LOC-04
+
+Description: Verify that news articles, headlines, and other content are correctly translated and culturally adapted for the selected language edition.
+
+Preconditions:
+
+The application is installed and launched.
+The user has selected a language edition.
+
+Test Steps:
+Access news articles in different categories.
+Verify that headlines, article content, and any related text (e.g., captions, summaries) are translated accurately into the selected language.
+Check for cultural adaptation, such as using appropriate terms, references, and context for the region.
+
+Expected Results:
+
+All news content should be correctly translated and culturally adapted to the selected language and region.
+
+
+Test Case Title: App feature (Local) testing
+
+Test Case ID: LOC-05
+
+Description: verify that you can find local stories in your area
+
+The application is installed and launched.
+The user has selected the local screen.
+
+Test Steps:
+Click on the local screen.
+Enter your city or zipcode
+verify that you can see local stories in your area.
+
+Expected result
+All news content and stories should be specific to your area.
+
+
+
