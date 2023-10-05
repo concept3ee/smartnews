@@ -177,9 +177,10 @@ Expected Results:
 
 The user should be able to complete the registration and login processes without any errors.
 After successful login, the user should land on the profile screen with their name or profile picture visible.
+
 Actual Result: 
 The user is able to complete the registration and login process without any errors.
-After login, the user lands on the profile screen page with the
+After login, the user lands on the profile screen page with their name and profile picture visisble
 
 
 Test Case 2: News Article Retrieval
@@ -194,6 +195,7 @@ Description: Verify that users can retrieve and view news articles from various 
 Preconditions:
 
 The user is logged in and on the application's home screen.
+
 Test Steps:
 
 Navigate to the "News" or "Articles" section of the application.
@@ -203,11 +205,16 @@ Verify that the article opens and displays the content.
 Check for the presence of images, text formatting, and any embedded media (if applicable).
 Scroll through the article to ensure smooth navigation.
 Use any provided interaction features 
+
 Expected Results:
 
 Users should be able to select and view news articles from different categories.
 Articles should be displayed correctly, including any multimedia elements.
 Navigation within articles and interaction features should work as expected.
+
+Actual Result: 
+User is able to select and view news article from different categories.
+Articles are displayed correctly, including multimedia elements
 
 Test Case 3: Search Functionality
 
