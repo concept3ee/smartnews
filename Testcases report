@@ -49,6 +49,11 @@ The app should be compatible with the device, and the installation should procee
 After installation, the "Open" button should appear, indicating that the app can be launched.
 The app should open without crashing or displaying any errors.
 
+Actual Result: 
+Application found on Google Play Store
+App's information page is displayed correctly
+App is compatible with devices and installation proceeds without errors
+After installation, the open button appears and launches without crashing or error
 
 Postconditions:
 
@@ -92,6 +97,13 @@ The app should be compatible with the device, and the installation should procee
 After installation, the "Open" button should appear, indicating that the app can be launched.
 The app should open without crashing or displaying any errors.
 
+Actual Result:
+Application found on IOS Store
+App's information page is displayed correctly
+The app is compatible with devices and installation proceeds without errors
+After installation, the open button appears and launches without crashing or error
+
+
 Postconditions:
 
 The app is successfully installed and launched on the IOS device.
@@ -129,7 +141,12 @@ Expected Results:
 
 The app should launch without any noticeable delays or crashes.
 Onboarding for new users should be smooth and intuitive, with clear explanations for permissions and data collection.
-Returning users should be directly taken to the app's main interface or home screen.
+Returning users should be directly taken to the app's main interface.
+
+Actual Result:
+Application launches without any noticeable delay or crashes
+Smooth onboarding for new users, clear explanation for permissions and data collection
+Returning users are directly taken to the app's main interface.
 
 
 Test Case 1: User Registration/Login
@@ -160,6 +177,9 @@ Expected Results:
 
 The user should be able to complete the registration and login processes without any errors.
 After successful login, the user should land on the profile screen with their name or profile picture visible.
+Actual Result: 
+The user is able to complete the registration and login process without any errors.
+After login, the user lands on the profile screen page with the
 
 
 Test Case 2: News Article Retrieval
