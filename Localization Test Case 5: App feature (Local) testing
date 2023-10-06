@@ -5,13 +5,24 @@ Test Case ID: LOC-05
 
 Description: verify that you can find local stories in your area
 
+Preconditions
 The application is installed and launched.
 The user has selected the local screen.
 
 Test Steps:
 Click on the local screen.
 Enter your city or zipcode
+or Click use device location
 verify that you can see local stories in your area.
 
 Expected result
 All news content and stories should be specific to your area.
+
+Actual result (Japan or US zip code)
+US and Japan zip codes work perfectly
+
+Actual result (other countries)
+Zip code is restricted to some country
+Not all city or zip code is accepted
+when "Use device location" is clicked, it does not return any error message informing 
+the user of the unavailability of that feature, it only bounces back
