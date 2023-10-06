@@ -5,7 +5,6 @@ Test Case ID: LOC-04
 Description: Verify that news articles, headlines, and other content are correctly translated and culturally adapted for the selected language edition.
 
 Preconditions:
-
 The application is installed and launched.
 The user has selected a language edition.
 
@@ -15,5 +14,8 @@ Verify that headlines, article content, and any related text (e.g., captions, su
 Check for cultural adaptation, such as using appropriate terms, references, and context for the region.
 
 Expected Results:
-
 All news content should be correctly translated and culturally adapted to the selected language and region.
+
+Actual Result:
+All news content is correctly translated and culturally adapted to the selected language and region.
+
