@@ -2,16 +2,14 @@ Test Case 2: News Article Retrieval
 
 Test Case Title: News Article Retrieval
 
-
 Test Case ID: FT-02
 
 Description: Verify that users can retrieve and view news articles from various sources.
 
 Preconditions:
-
 The user is logged in and on the application's home screen.
-Test Steps:
 
+Test Steps:
 Navigate to the "News" or "Articles" section of the application.
 Select a news category (e.g., "Technology," "Sports," "Politics").
 Click on a news article.
@@ -19,8 +17,12 @@ Verify that the article opens and displays the content.
 Check for the presence of images, text formatting, and any embedded media (if applicable).
 Scroll through the article to ensure smooth navigation.
 Use any provided interaction features 
-Expected Results:
 
+Expected Results:
 Users should be able to select and view news articles from different categories.
 Articles should be displayed correctly, including any multimedia elements.
 Navigation within articles and interaction features should work as expected.
+
+Actual Result: 
+User is able to select and view news article from different categories.
+Articles are displayed correctly, including multimedia elements
