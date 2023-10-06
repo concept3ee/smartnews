@@ -41,7 +41,6 @@ Test Case ID: INSTALL-02
 Description: Verify that the application can be successfully installed on an IOS device.
 
 Preconditions:
-
 An Android device with the minimum required specifications.
 The device is connected to the internet.
 
@@ -68,6 +67,6 @@ Application found on IOS Store
 App's information page is displayed correctly
 The app is compatible with devices and installation proceeds without errors
 After installation, the open button appears and launches without crashing or error
-Postconditions:
 
+Postconditions:
 The app is successfully installed and launched on the IOS device.
