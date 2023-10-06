@@ -7,12 +7,10 @@ Test Case ID: LOC-03
 Description: Verify that the application displays currency symbols and formats correctly for the selected region and language.
 
 Preconditions:
-
 The application is installed and launched.
 The user has selected a language edition.
 
 Test Steps:
-
 Navigate to the application's settings screen.
 Verify that there's an option to set the region or country.
 Change the region or country setting to a different location (e.g., from the United States to Japan).
@@ -20,5 +18,8 @@ Access financial news articles or sections that involve currency information.
 Verify that currency symbols and formatting are displayed correctly.
 
 Expected Results:
+Changing the edition should update currency symbols and formatting in financial news articles.
 
-Changing the editoin should update currency symbols and formatting in financial news articles.
+Actual Result:
+Changing the language edition updates the currency symbols and formatting in financial news articles.
+
