@@ -232,6 +232,7 @@ Users are able to search for articles based on their queries.
 The search result is relevant to the query
 Clicking on the search result opens the corresponding queries.
 
+
 Localization Testing 
 
 Test Case 1: Language Selection
@@ -243,11 +244,10 @@ Test Case ID: LOC-01
 Description: Verify that the application allows users to select their preferred language and that the app's content and user interface are displayed in the selected language.
 
 Preconditions:
-
 The application is installed and launched.
 The user is on the settings screen (if applicable).
-Test Steps:
 
+Test Steps:
 Navigate to the application's settings 
 Locate the edition selection option.
 Select a different language from the available options (e.g., United States or Japanese).
@@ -255,7 +255,6 @@ Confirm the language change by saving the selection.
 Verify that the app's content, including news articles and user interface elements, is displayed in the selected language.
 
 Expected Results:
-
 After selecting a language, all app content should be displayed in the chosen language.
 
 Actual result
@@ -288,10 +287,10 @@ Changing the region updates the dates and time format in both the news article a
 Test Case Title: Currency Display
 
 Test Case ID: LOC-03
+
 Description: Verify that the application displays currency symbols and formats correctly for the selected region and language.
 
 Preconditions:
-
 The application is installed and launched.
 The user has selected a language edition.
 
@@ -336,6 +335,7 @@ Test Case ID: LOC-05
 
 Description: verify that you can find local stories in your area
 
+Preconditions
 The application is installed and launched.
 The user has selected the local screen.
 
