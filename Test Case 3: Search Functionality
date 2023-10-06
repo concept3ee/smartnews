@@ -20,7 +20,11 @@ Click on a search result to view the corresponding article.
 Verify that the article opens and displays the content.
 
 Expected Results:
-
 Users should be able to search for articles based on their queries.
 The search results should be relevant to the query.
 Clicking on a search result should open the corresponding article.
+
+Actual Result:
+Users are able to search for articles based on their queries.
+The search result is relevant to the query
+Clicking on the search result opens the corresponding queries.
