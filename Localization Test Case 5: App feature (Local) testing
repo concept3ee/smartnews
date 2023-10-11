@@ -21,8 +21,13 @@ All news content and stories should be specific to your area.
 Actual result (Japan or US zip code)
 US and Japan zip codes work perfectly
 
-Actual result (other countries)
+Actual result IOS (other countries)
 Zip code is restricted to some country
 Not all city or zip code is accepted
-when "Use device location" is clicked, it does not return any error message informing 
-the user of the unavailability of that feature, it only bounces back
+when "Use device location" is clicked, it does not return any error message, it only bounces back
+
+Actual result android (other countries)
+Zip code is restricted to some country
+Not all city or zip code is accepted
+when "Use device location" is clicked, it returns location updated 
+
