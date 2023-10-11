@@ -29,5 +29,5 @@ when "Use device location" is clicked, it does not return any error message, it 
 Actual result android (other countries)
 Zip code is restricted to some country
 Not all city or zip code is accepted
-when "Use device location" is clicked, it returns location updated 
+when "Use device location" is clicked, it returns location updated and show something went wrong 
 
