@@ -348,17 +348,24 @@ verify that you can see local stories in your area.
 Expected result
 All news content and stories should be specific to your area.
 
-Actual result (Japan or US zip code)
+Actual result (Japan or US zip code) IOS
 US and Japan zip codes work perfectly
 
 Actual result (other countries) IOS
 Zip code is restricted to some country
 when "Use device location" is clicked, it does not return any error message informing 
 the user of the unavailability of that feature, it only bounces back
-Refer to issues for images
+Refer to issues for images and videos
 
 
+Actual result (Japan or US zip code) Android
+US and Japan zip codes work perfectly
 
+Actual result (other countries) Android
+Zip code is restricted to some country
+Not all city or zip code is accepted
+when "Use device location" is clicked, it returns location updated
+Refer to issues for images and issue
 
 
 
