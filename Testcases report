@@ -2,13 +2,12 @@ Test Case Report
 
 Test Plan: SmartNews App Testing Test Cases
 
-Test Date: October 1st 2023
-Test version IOS: 23.9.20 (cf160a917b)
+Test Date: October 1st, 2023
+Test version iOS: 23.9.20 (cf160a917b)
 
 Tester: Cletus Agbo
 
-
-Test cases and results
+Test Cases and Results
 
 Test Case Title: App Installation
 
@@ -18,95 +17,76 @@ Description: Verify that the application can be successfully installed on an And
 
 Preconditions:
 
-An Android device with the minimum required specifications.
-The device is connected to the internet.
+1. An Android device with the minimum required specifications.
+2. The device is connected to the internet.
 
 Test Steps:
 
-Unlock the Android device and ensure it is connected to the internet.
-
-Open the Google Play Store app from the device's app menu.
-
-In the Play Store search bar, enter Smartnews.
-
-From the search results, click on the correct application listing for "smartnew App."
-
-On the application's page, review the app's information, including the app name, developer, description, and screenshots.
-
-Check for the app's compatibility with your device. Verify that the device meets the minimum system requirements, such as Android version, screen resolution, and available storage space.
-
-Click the "Install" button to initiate the installation process.
-
-Observe the installation progress. Verify that the app is downloading and installing without errors.
-
-Once the installation is complete, the "Install" button will change to "Open." Click the "Open" button to launch the app.
+1. Unlock the Android device and ensure it is connected to the internet.
+2. Open the Google Play Store app from the device's app menu.
+3. In the Play Store search bar, enter SmartNews.
+4. From the search results, click on the correct application listing for "SmartNews App."
+5. On the application's page, review the app's information, including the app name, developer, description, and screenshots.
+6. Check for the app's compatibility with your device. Verify that the device meets the minimum system requirements, such as Android version, screen resolution, and available storage space.
+7. Click the "Install" button to initiate the installation process.
+8. Observe the installation progress. Verify that the app is downloading and installing without errors.
+9. Once the installation is complete, the "Install" button will change to "Open." Click the "Open" button to launch the app.
 
 Expected Results:
 
-The Google Play Store should successfully find the app based on the search query.
-The app's information page should display accurate details and screenshots.
-The app should be compatible with the device, and the installation should proceed without errors.
-After installation, the "Open" button should appear, indicating that the app can be launched.
-The app should open without crashing or displaying any errors.
+- The Google Play Store should successfully find the app based on the search query.
+- The app's information page should display accurate details and screenshots.
+- The app should be compatible with the device, and the installation should proceed without errors.
+- After installation, the "Open" button should appear, indicating that the app can be launched.
+- The app should open without crashing or displaying any errors.
 
-Actual Result: 
-Application found on Google Play Store
-App's information page is displayed correctly
-App is compatible with devices and installation proceeds without errors
-After installation, the open button appears and launches without crashing or error
+Actual Result:
+- Application found on Google Play Store.
+- App's information page is displayed correctly.
+- App is compatible with devices, and installation proceeds without errors.
+- After installation, the "Open" button appears and launches without crashing or error.
 
 Postconditions:
 
 The app is successfully installed and launched on the Android device.
 
-
 Test Case ID: INSTALL-02
 
-Description: Verify that the application can be successfully installed on an IOS device.
+Description: Verify that the application can be successfully installed on an iOS device.
 
 Preconditions:
 
-An Android device with the minimum required specifications.
-The device is connected to the internet.
+1. An iOS device with the minimum required specifications.
+2. The device is connected to the internet.
 
 Test Steps:
 
-Unlock the Apple device and ensure it is connected to the internet.
-
-Open the IOS App Store from the device's app menu.
-
-In the App Store search bar, enter Smartnews.
-
-From the search results, click on the correct application listing for "smartnew App."
-
-On the application's page, review the app's information, including the app name, developer, description, and screenshots.
-
-Check for the app's compatibility with your device. Verify that the device meets the minimum system requirements, such as IOS version, screen resolution, and available storage space.
-
-Click the "Install" button to initiate the installation process.
-
-Observe the installation progress. Verify that the app is downloading and installing without errors.
-
-Once the installation is complete, the "Install" button will change to "Open." Click the "Open" button to launch the app.
+1. Unlock the iOS device and ensure it is connected to the internet.
+2. Open the iOS App Store from the device's app menu.
+3. In the App Store search bar, enter SmartNews.
+4. From the search results, click on the correct application listing for "SmartNews App."
+5. On the application's page, review the app's information, including the app name, developer, description, and screenshots.
+6. Check for the app's compatibility with your device. Verify that the device meets the minimum system requirements, such as iOS version, screen resolution, and available storage space.
+7. Click the "Install" button to initiate the installation process.
+8. Observe the installation progress. Verify that the app is downloading and installing without errors.
+9. Once the installation is complete, the "Install" button will change to "Open." Click the "Open" button to launch the app.
 
 Expected Results:
 
-The IOS App Store should successfully find the app based on the search query.
-The app's information page should display accurate details and screenshots.
-The app should be compatible with the device, and the installation should proceed without errors.
-After installation, the "Open" button should appear, indicating that the app can be launched.
-The app should open without crashing or displaying any errors.
+- The iOS App Store should successfully find the app based on the search query.
+- The app's information page should display accurate details and screenshots.
+- The app should be compatible with the device, and the installation should proceed without errors.
+- After installation, the "Open" button should appear, indicating that the app can be launched.
+- The app should open without crashing or displaying any errors.
 
 Actual Result:
-Application found on IOS Store
-App's information page is displayed correctly
-The app is compatible with devices and installation proceeds without errors
-After installation, the open button appears and launches without crashing or error
+- Application found on iOS Store.
+- App's information page is displayed correctly.
+- The app is compatible with devices, and installation proceeds without errors.
+- After installation, the "Open" button appears and launches without crashing or error.
 
 Postconditions:
-The app is successfully installed and launched on the IOS device.
-
-
+The app is successfully installed and launched on the iOS device.
 
 Test Case Title: App Launch and Onboarding
 
@@ -119,26 +99,27 @@ Preconditions:
 The app is installed on the device.
 
 Test Steps:
-Open the app by tapping on its icon.
-Observe the app's launch time and check for any delays or crashes.
-On the first app launch (for new users), the app should initiate the onboarding process. For returning users, skip to step 6.
-During onboarding, verify the following:
-User registration or login options are available.
-App permissions requests (e.g., location, notifications) are presented with clear explanations.
-User data collection and privacy policy agreement (if applicable).
-Complete the onboarding process, including user registration or login, accepting permissions, and agreeing to the privacy policy (if applicable).
-After onboarding (for returning users), the app should display its main interface or home screen.
+
+1. Open the app by tapping on its icon.
+2. Observe the app's launch time and check for any delays or crashes.
+3. On the first app launch (for new users), the app should initiate the onboarding process. For returning users, skip to step 6.
+4. During onboarding, verify the following:
+   - User registration or login options are available.
+   - App permissions requests (e.g., location, notifications) are presented with clear explanations.
+   - User data collection and privacy policy agreement (if applicable).
+5. Complete the onboarding process, including user registration or login, accepting permissions, and agreeing to the privacy policy (if applicable).
+6. After onboarding (for returning users), the app should display its main interface or home screen.
 
 Expected Results:
-The app should launch without any noticeable delays or crashes.
-Onboarding for new users should be smooth and intuitive, with clear explanations for permissions and data collection.
-Returning users should be directly taken to the app's main interface.
+
+- The app should launch without any noticeable delays or crashes.
+- Onboarding for new users should be smooth and intuitive, with clear explanations for permissions and data collection.
+- Returning users should be directly taken to the app's main interface.
 
 Actual Result:
-Application launches without any noticeable delay or crashes
-Smooth onboarding for new users, clear explanation for permissions and data collection
-Returning users are directly taken to the app's main interface.
-
+- Application launches without any noticeable delay or crashes.
+- Smooth onboarding for new users, clear explanation for permissions and data collection.
+- Returning users are directly taken to the app's main interface.
 
 Test Case 1: User Registration/Login
 
@@ -149,27 +130,27 @@ Test Case ID: FT-01
 Description: Verify that users can successfully register for an account and log in to the application.
 
 Preconditions:
-The application is installed and launched.
-The user is on the registration/login screen on the profile page.
+- The application is installed and launched.
+- The user is on the registration/login screen on the profile page.
 
 Test Steps:
-log in options
-Apple account, Facebook account, google account, email address
-Click on the "continue with email".
-Enter a valid user email address that is available to receive a confirmation code.
-click "send email"
-Enter the confirmation code that was sent 
-Verify that the user is successfully logged in 
-Verify that the user's name or profile picture (if applicable) is displayed on the home screen.
+
+1. Log in options: Apple account, Facebook account, Google account, email address.
+2. Click on "Continue with email."
+3. Enter a valid user email address that is available to receive a confirmation code.
+4. Click "Send email."
+5. Enter the confirmation code that was sent.
+6. Verify that the user is successfully logged in.
+7. Verify that the user's name or profile picture (if applicable) is displayed on the home screen.
 
 Expected Results:
-The user should be able to complete the registration and login processes without any errors.
-After successful login, the user should land on the profile screen with their name or profile picture visible.
 
-Actual Result: 
-The user is able to complete the registration and login process without any errors.
-After login, the user lands on the profile screen page with their name and profile picture visisble
+- The user should be able to complete the registration and login processes without any errors.
+- After successful login, the user should land on the profile screen with their name or profile picture visible.
 
+Actual Result:
+- The user is able to complete the registration and login process without any errors.
+- After login, the user lands on the profile screen page with their name and profile picture visible.
 
 Test Case 2: News Article Retrieval
 
@@ -180,26 +161,27 @@ Test Case ID: FT-02
 Description: Verify that users can retrieve and view news articles from various sources.
 
 Preconditions:
-The user is logged in and on the application's home screen.
+- The user is logged in and on the application's home screen.
 
 Test Steps:
-Navigate to the "News" or "Articles" section of the application.
-Select a news category (e.g., "Technology," "Sports," "Politics").
-Click on a news article.
-Verify that the article opens and displays the content.
-Check for the presence of images, text formatting, and any embedded media (if applicable).
-Scroll through the article to ensure smooth navigation.
-Use any provided interaction features 
+
+1. Navigate to the "News" or "Articles" section of the application.
+2. Select a news category (e.g., "Technology," "Sports," "Politics").
+3. Click on a news article.
+4. Verify that the article opens and displays the content.
+5. Check for the presence of images, text formatting, and any embedded media (if applicable).
+6. Scroll through the article to ensure smooth navigation.
+7. Use any provided interaction features.
 
 Expected Results:
-Users should be able to select and view news articles from different categories.
-Articles should be displayed correctly, including any multimedia elements.
-Navigation within articles and interaction features should work as expected.
 
-Actual Result: 
-User is able to select and view news article from different categories.
-Articles are displayed correctly, including multimedia elements
+- Users should be able to select and view news articles from different categories.
+- Articles should be displayed correctly, including any multimedia elements.
+- Navigation within articles and interaction features should work as expected.
 
+Actual Result:
+- User is able to select and view news articles from different categories.
+- Articles are displayed correctly, including multimedia elements.
 
 Test Case 3: Search Functionality
 
@@ -210,30 +192,29 @@ Test Case ID: FT-03
 Description: Verify that users can search for specific news articles or topics.
 
 Preconditions:
-
-The user is logged in and on the application's home screen.
+- The user is logged in and on the application's home screen.
 
 Test Steps:
 
-Locate the search bar within the application.
-Enter a search query (e.g., a keyword or topic).
-Click the "Search" or "Submit" button.
-Review the search results.
-Click on a search result to view the corresponding article.
-Verify that the article opens and displays the content.
+1. Locate the search bar within the application.
+2. Enter a search query (e.g., a keyword or topic).
+3. Click the "Search" or "Submit" button.
+4. Review the search results.
+5. Click on a search result to view the corresponding article.
+6. Verify that the article opens and displays the content.
 
 Expected Results:
-Users should be able to search for articles based on their queries.
-The search results should be relevant to the query.
-Clicking on a search result should open the corresponding article.
+
+- Users should be able to search for articles based on their queries.
+- The search results should be relevant to the query.
+- Clicking on a search result should open the corresponding article.
 
 Actual Result:
-Users are able to search for articles based on their queries.
-The search result is relevant to the query
-Clicking on the search result opens the corresponding queries.
+- Users are able to search for articles based on their queries.
+- The search result is relevant to the query.
+- Clicking on the search result opens the corresponding articles.
 
-
-Localization Testing 
+Localization Testing
 
 Test Case 1: Language Selection
 
@@ -244,22 +225,23 @@ Test Case ID: LOC-01
 Description: Verify that the application allows users to select their preferred language and that the app's content and user interface are displayed in the selected language.
 
 Preconditions:
-The application is installed and launched.
-The user is on the settings screen (if applicable).
+- The application is installed and launched.
+- The user is on the settings screen (if applicable).
 
 Test Steps:
-Navigate to the application's settings 
-Locate the edition selection option.
-Select a different language from the available options (e.g., United States or Japanese).
-Confirm the language change by saving the selection.
-Verify that the app's content, including news articles and user interface elements, is displayed in the selected language.
+
+1. Navigate to the application's settings.
+2. Locate the edition selection option.
+3. Select a different language from the available options (e.g., United States or Japanese).
+4. Confirm the language change by saving the selection.
+5. Verify that the app's content, including news articles and user interface elements, is displayed in the selected language.
 
 Expected Results:
-After selecting a language, all app content should be displayed in the chosen language.
 
-Actual result
-Selecting a language, all app's content is displayed in the chosen language
+- After selecting a language, all app content should be displayed in the chosen language.
 
+Actual Result:
+- Selecting a language changes all app content to the chosen language.
 
 Test Case Title: Date and Time Format
 
@@ -268,21 +250,23 @@ Test Case ID: LOC-02
 Description: Verify that date and time formats are correctly localized based on the selected region and language.
 
 Preconditions:
-The application is installed and launched.
-The user has selected a language edition.
+- The application is installed and launched.
+- The user has selected a language edition.
 
 Test Steps:
-Navigate to the application's settings or preferences.
-Verify that there's an option to set the language edition.
-Change the region or country setting to a different location (from the United States to Japan).
-Access news articles and check for the correct date and time formats (e.g., MM/DD/YYYY to DD/MM/YYYY).
-Verify that the date and time in the user interface (e.g., timestamps) are also updated accordingly.
+
+1. Navigate to the application's settings or preferences.
+2. Verify that there's an option to set the language edition.
+3. Change the region or country setting to a different location (from the United States to Japan).
+4. Access news articles and check for the correct date and time formats (e.g., MM/DD/YYYY to DD/MM/YYYY).
+5. Verify that the date and time in the user interface (e.g., timestamps) are also updated accordingly.
 
 Expected Results:
-Changing the region should update date and time formats in both news articles and the user interface.
 
-Actual Result
-Changing the region updates the dates and time format in both the news article and the user interface
+- Changing the region should update date and time formats in both news articles and the user interface.
+
+Actual Result:
+- Changing the region updates the dates and time format in both the news article and the user interface.
 
 Test Case Title: Currency Display
 
@@ -291,21 +275,23 @@ Test Case ID: LOC-03
 Description: Verify that the application displays currency symbols and formats correctly for the selected region and language.
 
 Preconditions:
-The application is installed and launched.
-The user has selected a language edition.
+- The application is installed and launched.
+- The user has selected a language edition.
 
 Test Steps:
-Navigate to the application's settings screen.
-Verify that there's an option to set the region or country.
-Change the region or country setting to a different location (e.g., from the United States to Japan).
-Access financial news articles or sections that involve currency information.
-Verify that currency symbols and formatting are displayed correctly.
+
+1. Navigate to the application's settings screen.
+2. Verify that there's an option to set the region or country.
+3. Change the region or country setting to a different location (e.g., from the United States to Japan).
+4. Access financial news articles or sections that involve currency information.
+5. Verify that currency symbols and formatting are displayed correctly.
 
 Expected Results:
-Changing the edition should update currency symbols and formatting in financial news articles.
+
+- Changing the edition should update currency symbols and formatting in financial news articles.
 
 Actual Result:
-Changing the language edition updates the currency symbols and formatting in financial news articles.
+- Changing the language edition updates the currency symbols and formatting in financial news articles.
 
 Test Case Title: Content Localization
 
@@ -314,59 +300,56 @@ Test Case ID: LOC-04
 Description: Verify that news articles, headlines, and other content are correctly translated and culturally adapted for the selected language edition.
 
 Preconditions:
-The application is installed and launched.
-The user has selected a language edition.
+- The application is installed and launched.
+- The user has selected a language edition.
 
 Test Steps:
-Access news articles in different categories.
-Verify that headlines, article content, and any related text (e.g., captions, summaries) are translated accurately into the selected language.
-Check for cultural adaptation, such as using appropriate terms, references, and context for the region.
+
+1. Access news articles in different categories.
+2. Verify that headlines, article content, and any related text (e.g., captions, summaries) are translated accurately into the selected language.
+3. Check for cultural adaptation, such as using appropriate terms, references, and context for the region.
 
 Expected Results:
-All news content should be correctly translated and culturally adapted to the selected language and region.
+
+- All news content should be correctly translated and culturally adapted to the selected language and region.
 
 Actual Result:
-All news content is correctly translated and culturally adapted to the selected language and region.
+- All news content is correctly translated and culturally adapted to the selected language and region.
 
-
-Test Case Title: App feature (Local) testing
+Test Case Title: App Feature (Local) Testing
 
 Test Case ID: LOC-05
 
-Description: verify that you can find local stories in your area
+Description: Verify that you can find local stories in your area.
 
-Preconditions
-The application is installed and launched.
-The user has selected the local screen.
+Preconditions:
+- The application is installed and launched.
+- The user has selected the local screen.
 
 Test Steps:
-Click on the local screen.
-Enter your city or zipcode
-or Click use device location
-verify that you can see local stories in your area.
 
-Expected result
-All news content and stories should be specific to your area.
+1. Click on the local screen.
+2. Enter your city or ZIP code or click "Use device location."
+3. Verify that you can see local stories in your area.
 
-Actual result (Japan or US zip code) IOS
-US and Japan zip codes work perfectly
+Expected Result:
+- All news content and stories should be specific to your area.
 
-Actual result (other countries) IOS
-Zip code is restricted to some country
-when "Use device location" is clicked, it does not return any error message informing 
-the user of the unavailability of that feature, it only bounces back
-Refer to issues for images and videos
+Actual Result (Japan or US ZIP code) iOS:
+- US and Japan ZIP codes work perfectly.
 
+Actual Result (other countries) iOS:
+- ZIP code is restricted in some countries.
+- When "Use device location" is clicked, it does not return any error message informing the user of the unavailability of that feature; it only bounces back.
 
-Actual result (Japan or US zip code) Android
-US and Japan zip codes work perfectly
+Refer to the issues for images and videos.
 
-Actual result (other countries) Android
-Zip code is restricted to some country
-Not all city or zip code is accepted
-when "Use device location" is clicked, it returns location updated
-Refer to issues for images and issue
+Actual Result (Japan or US ZIP code) Android:
+- US and Japan ZIP codes work perfectly.
 
+Actual Result (other countries) Android:
+- ZIP code is restricted in some countries.
+- Not all city or ZIP codes are accepted.
+- When "Use device location" is clicked, it returns a location updated.
 
-
-
+Refer to the issues for images and videos.
